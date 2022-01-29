@@ -4,7 +4,7 @@ const path = require("path");
 const fs = require("fs");
 const { cwd } = require("process");
 
-const currentDirectory = cwd(); //path.join(path.dirname(fs.realpathSync(__filename)));
+const currentDirectory = cwd();
 const configFile = require(`${currentDirectory}/package.json`);
 
 Object.keys(configFile).forEach((key) => {
