@@ -1,7 +1,7 @@
 {
   "name": "@jbuck94/pk-cli",
   "version": "1.0.1",
-  "description": "A CLI easily access",
+  "description": "A CLI to easily see fields on your package.json",
   "repository": "",
   "main": "index.js",
   "scripts": {
