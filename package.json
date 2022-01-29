@@ -1,8 +1,11 @@
 {
   "name": "@jbuck94/pk-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A CLI to easily see fields on your package.json",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbuck94/pk-cli.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,8 +16,7 @@
   "author": "Shahed Nasser",
   "license": "MIT",
   "dependencies": {
-    "commander": "^7.2.0",
-    "pk": "^1.1.0"
+    "commander": "^7.2.0"
   },
   "bin": {
     "pk": "index.js"
